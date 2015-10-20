@@ -13,18 +13,30 @@ De La Salle University - College of Computer Studies
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<style>
-	body {
-		padding-top: 20px;
-		background-color: #339966;
-	}
+		body {
+			padding-top: 20px;
+			background-color: #339966;
+			color: white;
+		}
 	
-	.margin-base-vertical {
-		margin: 40px 0;
-	}
+		.margin-base-vertical {
+			margin: 40px 0;
+		}
 
-	p {
-		font-family: Arial;
-	}
+		.start-paragraph-padding {
+			margin: 20px 0 0 0 ;
+		}
+
+		#sentences {
+			font-family: sans-serif;
+			font-size: 20px;
+		}
+
+		#topBackground {
+			background-color: #006699;
+		}
+
+	
 
 	</style>
 </head>
@@ -32,14 +44,15 @@ De La Salle University - College of Computer Studies
 
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<h1 class="margin-base-vertical"> DLSU Resume Generator </h1>
+			<div id="topBackground" class="col-md-7 col-md-offset-3">
+				<h1 class="margin-base-vertical text-center" style="font-size: 70px"> DLSU Resume Generator </h1>
+			</div>
+			<div class="col-md-7 col-md-offset-3">
+				<p id="sentences" class="start-paragraph-padding text-center"> Welcome to the DLSU Resume Generator, a project by DLSU ComET </p>
 
-				<p> Welcome to the DLSU Resume Generator, a project by DLSU ComET </p>
+				<p id="sentences" class="start-paragraph-padding text-center"> This is a sample sentence </p>
 
-				<p> This is a sample sentence </p>
-
-				<p> And this is another sample sentence </p>
+				<p id="sentences" class="start-paragraph-padding text-center"> And this is another sample sentence </p>
 			</div>
 		</div>
 	</div>
